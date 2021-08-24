@@ -1,0 +1,42 @@
+.icon.bg-tinto,
+.bg-tinto {
+    background-color: #56070C !important;
+}
+.img_principal{
+    max-width: 400px;
+}
+.portfolio-block form {
+    box-shadow: none;
+}
+.btn-outline-tinto {
+    color: #56070C;
+    border-color: #56070C;
+}
+.btn-outline-tinto:hover {
+    color: #fff;
+    background-color: #56070C;
+    border-color: #56070C;
+}
+.btn-outline-naranja {
+    color: #ff8000;
+    border-color: #ff8000;
+}
+.btn-outline-naranja:hover {
+    color: #fff;
+    background-color: #ff8000;
+    border-color: #ff8000;
+}
+.bg-hueso{
+    background-color: #fbfbed;
+}
+.icon.bg-naranja,
+.bg-naranja{
+    background-color: #ff8000;
+}
+.lanidng-page{
+    background-image: url("../../assets/img/bg.png");
+    background-repeat: repeat-x;
+    background-size: auto 300px;
+
+}
+    
