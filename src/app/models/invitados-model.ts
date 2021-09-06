@@ -1,6 +1,7 @@
 export interface Invitados {
     id: number;
     nombre: String;
+    nombreId: String;
     invitadoDe:  String;
     grupo:  String;
     nombreCompleto:  String;
@@ -9,5 +10,5 @@ export interface Invitados {
     viaje:  boolean;
     mensaje:  String;
     confirmaAsistencia: boolean;
-    fechaConfimacion:  Date;
+    fechaConfirmacion:  Date;
   }

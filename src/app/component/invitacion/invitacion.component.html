@@ -28,12 +28,12 @@
             <div class="container">
                 <img src="assets/img/foto.jpg" class="img_principal rounded-3 mb-5 img-fluid" alt="I&M">
                 <div class="about-me">
-                    <p>Hola <strong>{{ name }}</strong>. <br>
+                    <p>Hola <strong>{{ nombre }}</strong>. <br>
                       {{ mensaje }}.</p>
                     
                       <span *ngIf="confirmaAsistencia; else loggedOut">&#10003;Ya has confirmado asistencia
                         en la siguiente fecha:<br>
-                        {{fechaConfimacion }} <br></span>
+                        {{fechaConfirmacion }} <br></span>
                         <ng-template #loggedOut>
                         <input type="hidden" name="confirma" value="A">
 		    <button class="btn btn-outline-tinto btn-lg" role="button" type="button"
@@ -144,6 +144,19 @@ Monterrey, N.L.  <br>
                 </div>
             </div>
         </section>
+        <span *ngIf="viaje">
+            <section class="portfolio-block btn-outline-naranja:hover " >
+                
+                    <div class="row justify-content-center">
+                        <div class="col-10 text-center">
+                        <img src="assets/img/hotel.jpeg" class="img_principal rounded-3 mb-5 img-fluid" alt="Hotel">
+                    
+                        <p>Listo para viajar, te vemos en Puerto Vallarta</p>
+                        
+                        </div>
+                    </div>
+            </section>
+        </span>
     </main>
    
 
